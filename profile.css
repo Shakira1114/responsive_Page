@@ -1,0 +1,259 @@
+*{
+    margin-top: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    height: 30px;
+    
+    top: 400px;
+    background:  rgba(217, 217, 217, 1);
+}
+
+.container img{
+    padding: 20px;
+    position: relative;
+    margin-top: -40px;
+
+ 
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-flex;
+    margin-bottom: 60em;
+    margin-top: -20px;
+
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+  
+    margin-left: 40px;
+
+}
+
+
+.sidenav {
+    height: 100%; 
+    width: 160px;
+    padding-top: 40px;
+    margin: 30px;
+   
+}
+
+.sidenav a{
+    color: black;
+    display: block;
+  line-height: 32px;
+  text-decoration: none;
+    
+}
+
+form{
+    
+    display: inline-flex;
+   float: right;
+   text-align: right;
+   margin-left: 50%;
+   margin-bottom: 50%;
+   position: absolute;
+   border-radius: 6%;
+}
+
+legend{
+    border-radius: 4em;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+.favoritebooks h3{
+    position: absolute;
+    height: 140px;
+    left: 700px;
+    top: 120px;
+    width: 172px;
+    height: 259px;
+    font-size: 20;
+ 
+    
+}
+
+h3{
+ margin-left: 270px;
+ font-size: 25;
+ margin-top: -700px;
+}
+
+h4{
+    margin-left: 270px;
+    font-size: 20;
+}
+
+.personalinfo img{
+    margin-left: 160px;
+
+}
+
+.img1 img{
+    position: absolute;
+    height: 140px;
+    left: 440px;
+    top: 210px;
+
+}
+
+.clickbutton1 img{
+    position: absolute;
+    left: 700px;
+    top: 200px;
+
+}
+
+.clickbutton2 img{
+    position: absolute;
+    left: 740px;
+    top: 250px;
+}
+
+.genres img{
+    position: absolute;
+    left: 560px;
+    top: 370px;
+}
+
+
+.img2 img{
+    position: absolute;
+    height: 140px;
+    left: 540px;
+    top: 210px;
+}
+
+h5{
+    margin-left: 270px;
+    font-size: 20;
+    margin-top: 40px;
+}
+
+.recentreturns img{
+    margin-left: 160px;
+    font-size: 20;
+}
+
+
+
+.book1 img{
+
+    position: absolute;
+    height: 140px;
+    left: 900px;
+    top: 160px;
+    width: 172px;
+    height: 259px;
+
+}
+
+.book2 img{
+
+    position: absolute;
+    height: 140px;
+    left: 1100px;
+    top: 160px;
+    width: 172px;
+    height: 259px;
+}
+
+.book3 img{
+    position: absolute;
+    height: 140px;
+    left: 900px;
+    top: 500px;
+    width: 172px;
+    height: 259px;
+}
+
+
+.book4 img{
+
+    position: absolute;
+    height: 140px;
+    left: 1100px;
+    top: 500px;
+    width: 172px;
+    height: 259px;
+}
+
+#cardTitle {
+    background-color: rgba(36, 109, 43, 1);
+    border-radius: 2em;
+    width: 100px;
+    text-align: center;
+    justify-items: center;
+    height: 20px;
+    margin-left: 945px;
+    margin-top: -1200px;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 390px) {
+    .header{
+        width: auto;
+    }
+    .header-container img {
+        width: 4rem;
+        height: 4rem;
+        padding: 0;
+        margin-left: 2px;
+    }
+
+    .header-container nav {
+        width: auto;
+        margin-left: 2rem;
+       font-size: 10px;
+       margin-top:-30px;
+
+    }
+
+    .sidenav{
+        visibility: hidden;
+    }
+
+    .header-container form {
+    visibility: hidden;
+    }
+
+    h3{
+        margin-left: -300px;
+    }
+    
+    .h4{
+     font-size: 20;
+    
+    }
+    .leftside{
+
+        margin-left: 20px;
+    }
+}

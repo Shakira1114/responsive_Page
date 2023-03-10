@@ -1,0 +1,183 @@
+*{
+    margin-top: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    height: 50px;
+    background:  rgba(217, 217, 217, 1);
+    padding: 15px;
+    height: 10px;
+}
+
+.sidenav {
+    background-color: #f2f2f2;
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+.main {
+    float: left;
+    width: 80%;
+    padding: 20px;
+}
+
+.column {
+    width: 50%;
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+
+.header-container img{
+    margin-top: -20px !important;
+    margin-left: 20px;
+}
+
+nav{
+    float: right;
+    margin-top: -15px;
+    margin-left: 600px;
+    
+    
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+nav li{
+    display: inline-flex;
+    margin-top: -20px;
+
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: black;
+
+}
+
+
+.sidenav{
+    background-color: white;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.sidenav a{
+    color: black;
+    display: block;
+  line-height: 35px;
+  text-decoration: none;
+
+    
+}
+
+
+form{
+    
+    display: inline-flex;
+   float: right;
+   text-align: right;
+   margin-left: 50%;
+   margin-bottom: 50%;
+   position: absolute;
+   border-radius: 10%;
+}
+
+legend{
+    border-radius: 4em;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+h3{
+width: 100%;
+height: 90px;
+font-family: 'Epilogue', sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 50px;
+color: #000000;
+
+}
+
+p{
+width: 100%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #000000;
+}
+
+#cardTitle {
+    background-color: rgba(116, 44, 44, 1);
+    border-radius: 2em;
+    width: 300px;
+    text-align: center;
+    justify-items: center;
+    height: 50px;
+    color: white;
+    margin-top: -100px;
+    margin-left: 50px;
+    position: absolute;
+    z-index: 1;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px)   {
+.column h3{
+    font-size: 30px;
+
+}
+.header-container img{
+    width: 4rem;
+    height: 4rem;
+    margin-top: -70px;
+    margin-left: -15px;
+
+}
+.sidenav{
+    visibility: hidden;
+}
+.column p{
+    font-size: 15;
+    width: -100%;
+
+}
+
+.header-container nav{
+    display: auto;
+    margin-left: -10px;
+    font-size: 13;
+}
+.header-container form {
+    visibility: hidden;
+}
+.column {
+    display: table-column;
+    width: 15rem;
+    height: 15rem;
+    margin-left: -20px;
+    margin-bottom: 800px;
+    
+}
+
+}

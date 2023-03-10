@@ -1,0 +1,223 @@
+*{
+    margin-top: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    height: 30px;
+    
+    top: 400px;
+    background:  rgba(217, 217, 217, 1);
+}
+
+.header-container img{
+    padding: 20px;
+    position: relative;
+    margin-top: -40px;
+
+ 
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-flex;
+    margin-bottom: 60em;
+    margin-top: -20px;
+
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+  
+    margin-left: 40px;
+
+}
+
+
+.sidenav {
+    height: 100%; 
+    width: 160px; 
+    padding-top: 40px;
+    margin: 30px;
+   
+}
+
+.sidenav a{
+    color: black;
+    display: block;
+  line-height: 32px;
+  text-decoration: none;
+    
+}
+
+form{
+    
+    display: inline-flex;
+   float: right;
+   text-align: right;
+   margin-left: 50%;
+   margin-bottom: 50%;
+   position: absolute;
+   border-radius: 6%;
+}
+
+legend{
+    border-radius: 4em;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+.leftside img{
+    position: absolute;
+    left: 320px;
+    top: 200px;
+}
+
+.leftside1 img{
+    position: absolute;
+    left: 420px;
+    top: 290px;
+}
+
+h1{
+    position: absolute;
+    left: 640px;
+    top: 130px;
+    color: #742C2C;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h2{
+    position: absolute;
+    left: 950px;
+    top: 190px;
+    color: #ED907F;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h3{
+    position: absolute;
+    left: 940px;
+    top: 250px;
+
+    color: #984F1F;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.fullname p{
+    position: absolute;
+    left: 800px;
+    top: 340px;
+}
+
+.fullname img{
+    position: absolute;
+    left: 800px;
+    top: 360px;
+
+}
+
+.email p{
+    position: absolute;
+    left: 800px;
+    top: 440px;
+}
+
+.email img{
+    position: absolute;
+    left: 800px;
+    top: 460px;
+}
+
+.phone p{
+    position: absolute;
+    left: 800px;
+    top: 540px;
+}
+
+.phone img{
+    position: absolute;
+    left: 800px;
+    top: 560px;
+}
+.address p{
+    position: absolute;
+    left: 800px;
+    top: 640px;
+}
+.address img {
+    position: absolute;
+    left: 800px;
+    top: 660px;
+}
+
+.login img {
+   position: absolute;
+    left: 900px;
+    top: 730px;
+    width: 10%; 
+}
+
+.login p{
+    position: absolute;
+    left: 915px;
+    top: 735px;
+    color: white;
+    
+}
+
+.register p{
+    position: absolute;
+    left: 1040px;
+    top: 735px;
+    font-size: 12;
+    
+}
+
+@media screen and (max-width: 768px)   {
+  
+
+.header-container img{
+    width: 4rem;
+    height: 4rem;
+    margin-top: -70px;
+    margin-left: -15px;
+
+}
+.sidenav{
+    visibility: hidden;
+}
+
+.header-container nav{
+    display: auto;
+    margin-left: -10px;
+    font-size: 13;
+}
+.header-container form {
+    visibility: hidden;
+
+}
+
+}

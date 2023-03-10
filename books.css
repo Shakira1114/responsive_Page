@@ -1,0 +1,296 @@
+*{
+    margin-top: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    height: 50px;
+    background:  rgba(217, 217, 217, 1);
+    padding: 15px;
+    height: 10px;
+}
+
+.header-container img{
+    margin-top: -40px !important;
+    margin-left: 20px;
+
+}
+
+nav{
+    float: right;
+    margin-top: -15px;
+    margin-left: 600px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+nav li{
+    display: inline-flex;
+    margin-top: -20px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    margin-left: 40px;
+
+}
+
+
+.sidenav {
+    background-color: white;
+    padding: 30px;
+    margin-top: 50px;
+  
+}
+
+.sidenav a{
+    color: black;
+    display: block;
+  line-height: 32px;
+  text-decoration: none;
+    
+}
+
+form{
+     
+ display: inline-flex;
+ text-align: right;
+ margin-left: 50%;
+ margin-bottom: 50%;
+ margin-top: -50px;
+
+ border-radius: 10%;
+
+}
+
+legend{
+   
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.column img{
+    position: absolute;
+    left: 240px;
+    top: 160px;
+    width: 400;
+    height: 600;
+
+}
+
+#cardTitle {
+    background: rgba(6, 124, 68, 1);
+    width: 160px;
+    height: 30px;
+    border-radius: 2em;
+    text-align: center;
+    justify-items: center;
+    color: white;
+    margin-top: 600px;
+    margin-left: 24rem;
+    position: absolute;
+    z-index: 1;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+}
+
+.bookinfo{
+height: 100%; 
+width: 160px; 
+margin-left: 43rem;
+margin-top: -20rem;
+
+}
+
+.bookinfo a{
+    color: black;
+    display: block;
+  line-height: 32px;
+  text-decoration: none;
+  
+
+}
+
+.sideinfo{
+   margin-left: 50rem;
+   margin-top: -755px;
+   color: black;
+   display: block;
+ line-height: 32px;
+ text-decoration: none;
+  
+}
+
+.sideinfo a {
+    color: black;
+    display: block;
+  line-height: 32px;
+  text-decoration: none;
+
+}
+
+.summary h2{
+    margin-left: 700px;
+    font-size: 20;
+}
+
+.summary p {
+    position: absolute;
+    width: 700px;
+    height: 215px;
+    left: 700px;
+    top: 400px;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 31px;
+    
+    color: #000000;
+    
+}
+
+.review h2{
+    margin-top: 250px;
+    font-size: 20;
+    margin-left: 700px;
+}
+
+.review p {
+    position: absolute;
+    width: 700px;
+    height: 215px;
+    left: 700px;
+    top: 700px;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 31px;
+    
+    color: #000000;
+    
+}
+
+.body2 p{
+    position: absolute;
+    width: 700px;
+    height: 215px;
+    left: 700px;
+    top: 840px;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 31px;
+    
+    color: #000000;
+}
+
+@media screen and (max-width: 768px) and (min-width: 390px)  {
+    .header{
+        width: auto;
+    }
+    .header-container img {
+        width: 4rem;
+        height: 4rem;
+        padding: 0;
+        margin-left: 2px;
+    }
+
+    .header-container nav {
+        width: auto;
+        margin-left: 2rem;
+       font-size: 14px;
+       margin-top:-30px;
+
+    }
+
+    .sidenav{
+        visibility: hidden;
+    }
+
+    .header-container form {
+    visibility: hidden;
+    }
+
+    .column img {
+        width: 50%;
+        height: 30%;
+        margin-left:-40%;
+    }
+
+    .column h2{
+        margin-left: -2800px;
+    }
+
+    .summary h2 p {
+        margin-left: -70%;
+    }
+    
+    #cardtitle{
+     margin-left: 100px;
+    margin-top: 0;
+    width: 7rem;
+    }
+
+
+    .bookinfo{
+        margin-left: -200px;
+        display:inline;
+        margin-top: -30px;
+    } 
+
+    .summary h2{
+         display: flex;
+    margin-left: 0;
+    font-size: 25;
+    width: 20rem;
+    margin-top: 370px;
+        
+        
+    }
+
+
+
+
+    .summary p {
+    display: inline;
+    margin-left: -700px;
+    font: 15;
+    width: 20rem;
+    margin-top: 20rem;}
+
+    .review h2{
+
+        margin-left: 0;
+        font-size: 25;
+        margin-top: 17em;
+    
+            
+    }
+
+    .review p {
+        display: inline;
+        margin-left: -700px;
+        font: 15;
+        width: 20rem;
+        margin-top: 30rem;}
+
+    .body2 p{
+        display: inline;
+        margin-left: -700px;
+        font: 15;
+        width: 20rem;
+        margin-top: 35rem;}
+    
+    
+}
+
